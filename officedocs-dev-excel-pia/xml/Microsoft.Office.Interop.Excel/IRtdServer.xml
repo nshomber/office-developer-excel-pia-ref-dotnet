@@ -142,7 +142,7 @@
         <summary>This method is called by Microsoft Excel to get new data.</summary>
         <returns>To be added.</returns>
         <remarks>
-          <para>The data returned to Excel is an <b>Object</b> containing a two-dimensional array. The first dimension represents the list of topic IDs. The second dimension represents the values associated with the topic IDs.</para>
+          <para>The data returned to Excel is an <b>Object</b> containing a two-dimensional array. The first index distinguishes between the topic ID and associated value. The second dimension represents each topic ID / associated value pair.</para>
           <para />
         </remarks>
       </Docs>
